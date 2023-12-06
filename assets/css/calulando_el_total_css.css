@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px dashed #bad; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.card {
+    min-height: 32em;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 0px 20px;
+}
+
+.btn {
+    width: 8em;
+}
+
+.botonpago {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.image-card img {
+    max-width: 15em;
+}
+
+.text-card {
+    padding: 20px 0px;
+}
+
+.lado-precio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botones-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.boton input {
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #fa0;
+}
+
+.boton input:hover {
+    background-color: rgb(199, 133, 1);
+}
+
+.boton input:active {
+    background-color: rgb(1, 169, 199);
+}
+
+.btnreset input{
+    height: 60px;
+    width: 60px;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+.componentespago {
+    height: 26em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.spanqty {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 10px;
+
+    
+}
